@@ -71,6 +71,12 @@ body {
 .hero-img {
     width: 500px;
     height: 350px;
-
 }
 
+.hero-btn {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    border-radius: 8px;
+}
