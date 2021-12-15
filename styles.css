@@ -23,7 +23,7 @@ body {
 
 .nav-logo {
     margin-right: auto;
-    padding-left: 20px;
+    padding-left: 120px;
     font-size: 28px;
     color: #f9faf8;
 }
@@ -31,12 +31,46 @@ body {
 .nav-items-right {
     display: flex;
     margin-left: auto;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 140px 0px 0px;
 }
 .nav-item {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
     padding: 10px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero-content {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 90px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
 
 }
+
+.hero-description {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-img {
+    width: 500px;
+    height: 350px;
+
+}
+
