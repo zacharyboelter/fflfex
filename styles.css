@@ -79,4 +79,30 @@ body {
     width: 110px;
     border: none;
     border-radius: 8px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px;
 }
+
+.img-gallery-container {
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.gallery-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    
+}
+
+.gallery-item {
+    width: auto;
+    height: 300px;
+    border: 2px solid dodgerblue;
+    border-radius: 5%;
+}
+
+
+
