@@ -104,5 +104,14 @@ body {
     border-radius: 5%;
 }
 
+.quote-section {
+    background-color: #bfc0c2;
+    padding: 100px;
+
+}
+
+.quote {
+    font-size: 32px;
+}
 
 
